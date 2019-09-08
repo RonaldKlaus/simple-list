@@ -102,15 +102,20 @@ export default {
           to: '/'
         },
         {
-          icon: 'mdi-chart-bubble',
-          title: 'Inspire',
-          to: '/inspire'
+          icon: 'mdi-format-list-bulleted',
+          title: 'Listen',
+          to: '/lists'
+        },
+        {
+          icon: 'mdi-information',
+          title: 'Über',
+          to: '/about'
         }
       ],
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      title: 'Vuetify.js'
+      title: 'Simple List'
     }
   }
 }
